@@ -15,11 +15,15 @@ main {
   grid-area: "main";
   background-color: whitesmoke;
 }
+footer{
+  grid-area:"footer"
+}
 .grid-master-container {
   display: grid;
   grid-template-areas:
     "header"
-    "main";
+    "main"
+    "footer";
 }
 .nav-bar {
   display: flex;
@@ -47,11 +51,7 @@ main {
   width: 200px;
   background-color: azure;
   border-radius: 5%;
-}
-.products{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  box-shadow: 5px 5px lightblue;
 }
 .product-card{
   padding: 30px;
@@ -61,8 +61,6 @@ main {
   text-align: center;
   background-color: rgb(236, 162, 162);
   box-shadow: 5px 5px lightblue;
-  width: 75%;
-  border-left: 30px;
 }
 .card-container{
   display: flex;
@@ -89,9 +87,17 @@ main {
   flex-direction: row;
   padding: 10px;
   justify-content: center;
-  box-shadow: 10px 10px;
+  box-shadow: 10px 10px lightblue;
 }
 .product-nav-item{
   padding: 10px;
   border: 1px solid black;
+  box-shadow: 0px 5px lightblue;
+} 
+.footer{
+  background-color: lightcoral;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
