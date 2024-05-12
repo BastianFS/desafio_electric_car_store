@@ -7,42 +7,54 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <div class="grid-master-container">
-      <header>
+    <div class="grid-master">
+      <header class="header">
         <div class="nav-bar">
           <i class="fa-solid fa-guitar"></i>
           <h1>Guitarras Electricas</h1>
-          <button class="nav-bar-toogle">---</button>
+          <button class="nav-bar-toogle">----</button>
         </div>
       </header>
-      <main class="products">
-        <div class="filter">
-          <p>Ordenar Por:</p>
-          <button class="filter-btn">Precio</button>
+      <div class="filter">
+        <p style="padding: 10px">Ordenar Por:</p>
+        <div class="filter-btn">
+          <select>
+            <option value="0">Precio</option>
+          </select>
         </div>
+      </div>
+      <main class="products">
         <div class="product-card">
           <div class="product-img"></div>
           <h6 class="product-name">Gibson SG</h6>
-        <button class="product-card-btn">Ver más</button>
-      </div>
-      <div class="product-nav">
-        <p class="product-nav-item"><<</p>
-        <p class="product-nav-item">1</p>
-        <p class="product-nav-item">2</p>
-        <p class="product-nav-item">3</P>
-        <p class="product-nav-item">>></p>
-      </div>
+          <button class="product-card-btn">Ver más</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img2"></div>
+          <h6 class="product-name">Fender Stratocaster</h6>
+          <button class="product-card-btn">Ver más</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img3"></div>
+          <h6 class="product-name">ESP Eclipse</h6>
+          <button class="product-card-btn">Ver más</button>
+        </div>
+        <div class="product-nav">
+          <p class="product-nav-item"><<</p>
+          <p class="product-nav-item">1</p>
+          <p class="product-nav-item">2</p>
+          <p class="product-nav-item">3</p>
+          <p class="product-nav-item">>></p>
+        </div>
       </main>
-    
-    <footer class="footer">
-      <div class="icons">
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-instagram"></i>
+      <footer class="footer">
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+        <p>Todos los derechos reservados</p>
+      </footer>
     </div>
-      <p>Todos los derechos reservados</p>
-
-    </footer>
-
     <script
       src="https://kit.fontawesome.com/1ff04fc998.js"
       crossorigin="anonymous"
