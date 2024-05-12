@@ -4,60 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GTR Store</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <div class="grid-master">
-      <header class="header">
-        <div class="nav-bar">
-          <i class="fa-solid fa-guitar"></i>
-          <h1>Guitarras Electricas</h1>
-          <button class="nav-bar-toogle">----</button>
+      <div class="big-container">
+        <header>
+          <div class="nav-bar-container">
+          <div class="nav-bar">
+            <i class="fa-solid fa-guitar"></i>
+            <h1>Guitarras Electricas</h1>
+            <button class="nav-bar-toogle">----</button>
+          </div>
         </div>
-      </header>
-      <div class="filter">
-        <p style="padding: 10px">Ordenar Por:</p>
-        <div class="filter-btn">
-          <select>
-            <option value="0">Precio</option>
-          </select>
+        </header>
+        <nav>
+          <p style="padding: 10px">Ordenar Por:</p>
+          <div class="filter-btn">
+            <select>
+              <option value="0">Precio</option>
+            </select>
+          </div>
+        </nav>
+        <main>
+          <div class="product-card-group">
+          <div class="product-card">
+            <div class="product-img"></div>
+            <h6 class="product-name">Gibson SG</h6>
+            <button class="product-card-btn">Ver más</button>
+          </div>
+          <div class="product-card">
+            <div class="product-img2"></div>
+            <h6 class="product-name">Fender Stratocaster</h6>
+            <button class="product-card-btn">Ver más</button>
+          </div>
+          <div class="product-card">
+            <div class="product-img3"></div>
+            <h6 class="product-name">ESP Eclipse</h6>
+            <button class="product-card-btn">Ver más</button>
+          </div>
         </div>
+          <div class="product-nav">
+            <p class="product-nav-item"><<</p>
+            <p class="product-nav-item">1</p>
+            <p class="product-nav-item">2</p>
+            <p class="product-nav-item">3</p>
+            <p class="product-nav-item">>></p>
+          </div>
+        </main>
+        <footer>
+          <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <p>Todos los derechos reservados</p>
+
+          <script
+            src="https://kit.fontawesome.com/1ff04fc998.js"
+            crossorigin="anonymous"
+          ></script>
+        </footer>
       </div>
-      <main class="products">
-        <div class="product-card">
-          <div class="product-img"></div>
-          <h6 class="product-name">Gibson SG</h6>
-          <button class="product-card-btn">Ver más</button>
-        </div>
-        <div class="product-card">
-          <div class="product-img2"></div>
-          <h6 class="product-name">Fender Stratocaster</h6>
-          <button class="product-card-btn">Ver más</button>
-        </div>
-        <div class="product-card">
-          <div class="product-img3"></div>
-          <h6 class="product-name">ESP Eclipse</h6>
-          <button class="product-card-btn">Ver más</button>
-        </div>
-        <div class="product-nav">
-          <p class="product-nav-item"><<</p>
-          <p class="product-nav-item">1</p>
-          <p class="product-nav-item">2</p>
-          <p class="product-nav-item">3</p>
-          <p class="product-nav-item">>></p>
-        </div>
-      </main>
-      <footer class="footer">
-        <div class="icons">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-        </div>
-        <p>Todos los derechos reservados</p>
-      </footer>
-    </div>
-    <script
-      src="https://kit.fontawesome.com/1ff04fc998.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
